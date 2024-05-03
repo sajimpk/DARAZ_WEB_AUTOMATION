@@ -42,7 +42,7 @@ public class Logocheck {
     }
     @Then("Enter Value For Login")
     public void EnterValue() throws InterruptedException {
-        homepage.InputNum().sendKeys("sajimpk520@gmail.com");
+        homepage.InputNum().sendKeys("example@gmail.com");
         Thread.sleep(wait);
     }
     @Then("Click on the Password Field")
@@ -52,7 +52,7 @@ public class Logocheck {
     }
     @When("Enter Password For Login")
     public void EnterPassValue() throws InterruptedException {
-        homepage.InputPass().sendKeys("sajimpk09");
+        homepage.InputPass().sendKeys("example1209");
         Thread.sleep(wait);
     }
     @Then("Click on the Submit Button")
